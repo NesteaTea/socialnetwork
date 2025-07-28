@@ -1,0 +1,31 @@
+.navMenu {
+    flex-direction: column;
+    gap: .5rem;
+    display: flex;
+}
+
+.navItem {
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    background: none;
+    border: none;
+    border-radius: .75rem;
+    align-items: center;
+    gap: .75rem;
+    width: 100%;
+    padding: .75rem;
+    font-size: .875rem;
+    text-decoration: none;
+    transition: all .3s;
+    display: flex;
+}
+
+.navItem.active {
+    background: #8b5cf64d;
+    border: 1px solid #8b5cf699;
+}
+
+.navItem:hover {
+    background: #8b5cf633;
+}

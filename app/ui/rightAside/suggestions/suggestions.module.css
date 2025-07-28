@@ -1,0 +1,11 @@
+.sectionIcon {
+    color: #a855f7;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.suggestionsList {
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+}

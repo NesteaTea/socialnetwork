@@ -1,0 +1,53 @@
+.suggestionItem {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.suggestionProfile {
+    align-items: center;
+    gap: .75rem;
+    display: flex;
+}
+
+.suggestionAvatar {
+    object-fit: cover;
+    border: 2px solid #8b5cf680;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.suggestionName {
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.suggestionDescription {
+    color: #9ca3af;
+    font-size: .75rem;
+}
+
+.addButton {
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: .875rem;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.addButton:hover {
+    border: 1px solid #9369f766;
+}
+
+.glassButton {
+    border-radius: .75rem;
+    cursor: pointer;
+    background: linear-gradient(135deg, #8b5cf64d 0%, #9333ea4d 100%);
+    border: 1px solid transparent;
+    transition: all .3s;
+}

@@ -1,0 +1,139 @@
+.postCard {
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    max-width: 32rem;
+}
+
+.glass {
+    border-radius: .75rem;
+    background: #ffffff1a;
+    border: 1px solid #fff3;
+}
+
+.postHeader {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.postAuthor {
+    align-items: center;
+    gap: .75rem;
+    display: flex;
+}
+
+.postAvatar {
+    object-fit: cover;
+    border: 2px solid #8b5cf680;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.postAuthorName {
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.postAuthorInfo {
+    color: #9ca3af;
+    font-size: .75rem;
+}
+
+.postMenuButton {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    transition: all .3s;
+    display: flex;
+}
+
+.glassButton {
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(135deg, #8b5cf64d 0%, #9333ea4d 100%);
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+.glassButton:hover {
+    border: #8b5cf699 1px solid;
+}
+
+/* Content */
+
+.postContent {
+    margin-bottom: 1rem;
+}
+
+.postText {
+    color: #fff;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.postImageContainer {
+    border: 1px solid #fff3;
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.glass {
+    border-radius: .75rem;
+    background: #ffffff1a;
+    border: 1px solid #fff3;
+}
+
+.postImage {
+    object-fit: cover;
+    width: 100%;
+    height: 16rem;
+    display: block;
+}
+
+/* Actions */
+.postActions {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.postActionsButtons {
+    gap: 1.5rem;
+    display: flex;
+}
+
+.postActionButton {
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem 1rem;
+    font-size: .875rem;
+    transition: all .3s;
+    display: flex;
+}
+
+.bookmarkButton {
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    transition: all .3s;
+    display: flex;
+}

@@ -1,0 +1,7 @@
+.rightSidebar {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 20rem;
+    display: flex;
+    margin: 1rem 0 0 0;
+}

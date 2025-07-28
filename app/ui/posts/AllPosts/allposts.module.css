@@ -1,0 +1,6 @@
+.postsContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+    display: flex;
+    max-width: 32rem;
+}

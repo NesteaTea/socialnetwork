@@ -1,0 +1,5 @@
+.onlineFriendsList {
+    flex-direction: column;
+    gap: .75rem;
+    display: flex;
+}

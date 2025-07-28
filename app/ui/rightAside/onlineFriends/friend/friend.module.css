@@ -1,0 +1,37 @@
+.friendItem {
+    align-items: center;
+    gap: .75rem;
+    display: flex;
+}
+
+.friendItemAvatarContainer {
+    position: relative;
+}
+
+.friendAvatar {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.onlineIndicator {
+    background: #10b981;
+    border: 2px solid #1f2937;
+    border-radius: 50%;
+    width: .75rem;
+    height: .75rem;
+    position: absolute;
+    bottom: -.125rem;
+    right: -.125rem;
+}
+
+.friendName {
+    color: #fff;
+    font-size: .875rem;
+}
+
+.status {
+    color: #9ca3af;
+    font-size: .75rem;
+}
