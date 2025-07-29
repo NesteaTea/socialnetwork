@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import style from './header.module.css';
 import { cn } from "@/lib/utils"
 
@@ -5,13 +6,15 @@ export default function Header() {
     return (
         <header className={cn(style.header, style.glassStrong)}>
             <div className={style.headerContent}>
-                <div className={style.logo}>
+                <Link href={'/'} className={style.logo}>
                     <div className={style.logoIcon}>SN</div>
                     <div className={style.logoText}>Social Network</div>
-                </div>
+                </Link>
                 <div className={style.searchBar}>
                     <div className={style.searchWrapper}>
-                        <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png" alt="Search" className={style.searchIcon} />
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256" className={style.searchIcon}>
+                            <g fill="#d9d9d9" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none"><g transform="scale(5.12,5.12)"><path d="M21,3c-9.4,0 -17,7.6 -17,17c0,9.4 7.6,17 17,17c3.35455,0 6.47104,-0.98016 9.10352,-2.65234l12.27539,12.27344l4.24219,-4.24219l-12.09766,-12.09961c2.17229,-2.8553 3.47656,-6.40865 3.47656,-10.2793c0,-9.4 -7.6,-17 -17,-17zM21,7c7.2,0 13,5.8 13,13c0,7.2 -5.8,13 -13,13c-7.2,0 -13,-5.8 -13,-13c0,-7.2 5.8,-13 13,-13z"></path></g></g>
+                        </svg>
                         <input type='text' placeholder='Поиск по социальной сети...' className={style.searchInput}></input>
                     </div>
                 </div>
