@@ -113,6 +113,10 @@
     display: flex;
 }
 
+.authForm {
+    position: relative;
+}
+
 .authFormContainer {
     -webkit-backdrop-filter: blur(25px);
     backdrop-filter: blur(25px);
@@ -288,6 +292,12 @@
     box-shadow: 0 15px 35px -5px #8b5cf666;
 }
 
+.authSubmitButton:disabled {
+    pointer-events: none;
+    background-color: #999;
+    opacity: 0.7;
+}
+
 .authFooter {
     text-align: center;
     color: #9ca3af;
@@ -318,4 +328,40 @@
     top: 55%;
     right: .75rem;
     transform: translateY(-50%);
+}
+
+.authErrors {
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgba(255, 0, 0, 0.7);
+}
+
+.authError {
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgba(255, 0, 0, 0.7);
+    position: absolute;
+    bottom: 95px;
+    left: 0;
+}
+
+.loader {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    display: inline-block;
+}
+
+.authFormInputError {
+    border-color: rgba(255, 0, 0, 0.6) !important;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }

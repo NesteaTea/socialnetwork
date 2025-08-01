@@ -1,0 +1,18 @@
+.postsContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+    display: flex;
+    width: 100%;
+    max-width: 42rem;
+}
+
+.notPosts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: .75rem;
+    height: 12rem;
+    color: #fff;
+}

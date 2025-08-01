@@ -1,0 +1,117 @@
+.header {
+    z-index: 50;
+    width: 100%;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    margin-bottom: 1rem;
+}
+
+.headerContent {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.glassStrong {
+    backdrop-filter: blur(25px);
+    border-radius: .75rem;
+    background: #ffffff26;
+    border: 1px solid #ffffff4d;
+}
+
+.logo {
+    align-items: center;
+    gap: .5rem;
+    display: flex
+}
+
+.logoIcon {
+    color: #fff;
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.logoText {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.searchBar {
+    flex: 1;
+    max-width: 28rem;
+    margin: 0 2rem;
+}
+
+.searchWrapper {
+    position: relative;
+}
+
+.searchIcon {
+    color: #d1d5db;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 50%;
+    left: .75rem;
+    transform: translateY(-50%);
+}
+
+.searchInput {
+    backdrop-filter: blur(12px);
+    border-radius: .75rem;
+    color: #fff;
+    background: #0006;
+    border: 2px solid #ffffff4d;
+    width: 100%;
+    padding: .75rem .75rem .75rem 2.5rem;
+    font-size: .875rem;
+    transition: all .3s;
+    box-shadow: 0 4px 6px -1px #0000001a;
+}
+
+.searchInput:focus {
+    background: #00000080;
+    border-color: #a855f7;
+    outline: none;
+}
+
+.navIcons {
+    align-items: center;
+    gap: .5rem;
+    display: flex;
+}
+
+.navButton {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all .3s;
+    display: flex;
+}
+
+.glassButton {
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(135deg, #8b5cf64d 0%, #9333ea4d 100%);
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+.glassButton:hover {
+    border: 1px solid #8e62f566;
+}
